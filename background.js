@@ -9,7 +9,7 @@ function random(){
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src=`${imgNumber+1}.jpg`;
+    image.src=`image/${imgNumber+1}.jpg`;
     image.classList.add('bgImage');
     body.appendChild(image);
     
