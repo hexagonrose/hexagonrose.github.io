@@ -1,0 +1,42 @@
+.title{
+    text-align:center;
+    font-size:50px;
+}
+
+.howmany{
+    text-align:right;
+    margin-right:170px;
+    font-size:30px;
+}
+
+.count{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttonGroup{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    width:100px;
+    height:70px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.eight, .seven, .six {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.show {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prob {
+    font-size:30px;
+}
