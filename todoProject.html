@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JustDoIt</title>
+        <meta chartset='UTF-8'>
+        <link rel='stylesheet' href='todoProject.css'>
+    </head>
+    <body>
+        <div id='weather'>
+            <span class='weather'></span>
+        </div>    
+        <h1 class='clock'>00:00:00</h1>
+        <h2 class='greet'>What is your name?<br></h2>
+        <form class='idBox'>
+            <input class='name' type='text' placeholder='Name here'>
+        </form>
+        <h2 class='toDo'>Tell me what to do!</h2>
+        <form class='todoBox'>
+            <input class='input' type='text' placeholder='What to do'>
+        </form>
+        <div class='content'>
+            <div>
+                <h2 class='doIt'>Do it right now!</h2>
+                    <ul class=list>
+                    </ul>
+            </div>
+            <div>    
+                <h2 class='done'>What you finished!</h2>
+                    <ul class=doneList>
+                    </ul>
+            </div>
+        </div>    
+        <script src='todoClock.js'></script>
+        <script src='todoID.js'></script>
+        <script src='todoList.js'></script>
+        <script src='background.js'></script>
+        <script src='weather.js'></script>
+    </body>
+</html>
